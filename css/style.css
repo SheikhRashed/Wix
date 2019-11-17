@@ -112,11 +112,16 @@ h3{
 ========================== */
 
 .bg-banner {
+  position: relative;
   /* background: transparent top bottom/cover no-repeat; */
-  background: url(../images/bg.jpg) no-repeat center center/cover;
+  background: url(../images/bg.jpg) no-repeat center center/cover, linear-gradient(90deg, rgba(118,0,0,1) 0%, rgba(185,0,0,1) 50%, rgba(102,0,0,1) 100%) ;
   background-attachment: fixed;
-  padding: 120px 0px;
+  /* background: ; */
+padding: 120px 0px;
+z-index: 1;
+
 }
+
 .b-text {
   font-size: 35px;
   text-transform: uppercase;
@@ -140,8 +145,9 @@ h3{
   min-height: 65vh;
   position: relative;
   left: 0;
-  top: -57px;
+  top: -100px;
   padding-bottom: 60px;
+  z-index: 2;
 }
 .sub-loco-txt {
   /* width: 45%; */
@@ -184,6 +190,7 @@ h3{
   margin-top: -100px;
   height: 460px;
   position: relative;
+  z-index: 3;
 }
 .loco2-text {
   color: #D2CE98;
@@ -204,6 +211,7 @@ h3{
   background: #d2ce98;
   height: 884px;
   position: relative;
+  z-index: 4;
 }
 
 .img-grid-1 {
@@ -364,6 +372,7 @@ ul li a.active {
   color: #fff;
   display: grid;
   place-items: center;
+  z-index: 10;
 }
 
 @media screen and (max-height: 450px) {

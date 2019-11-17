@@ -20,17 +20,17 @@
 
   $(function(){
     //Parallax
-    $('.bg-banner').parallax('50%', .3);
+    $('.bg-banner').parallax('100%', 0.2);
   
-    $('.available').parallax('50%', .3);
+    $('.available').parallax('100%', .3);
   
   
   //back to top button
-    $(".b2t").click(function(){
-      $("html, body").animate({
-          "scrollTop" : "0"
-      }, 500)
-  });
+  $(".b2t").click(function(){
+    $("html, body").animate({
+        "scrollTop" : "0"
+    }, 500)
+});
   
     //wow jquery plugins
     new WOW().init();
