@@ -15,9 +15,6 @@
     max-width: 100%;
   }
 
-  .thum-img img{
-    max-width: 100%;
-  }
 ::after, ::before {
   box-sizing: border-box;
 }
@@ -534,17 +531,3 @@ h3{
 
 
 /* Extra default  Responsive */
-
-@media (max-width:520px){
-  .s-img {
-    width: 250px;
-    /* margin-left: 131px; */
-}
-}
-
-@media(min-width: 320px) {
-  .s-img {
-    width: 250px;
-    /* margin-left: 25px; */
-}
-}
