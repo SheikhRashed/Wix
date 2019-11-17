@@ -60,8 +60,9 @@ $('.client-logo-slide').slick({
 
   // side bar
   function openNav() {
-    document.getElementById("myNav").style.width = "60%";
+    document.getElementById("myNav").style.width = "100%";
     document.getElementById("myNav").style.display = "block";
+    document.getElementsByClassName("sidebar").style.display = "none";
   }
 
   function closeNav() {
