@@ -14,6 +14,10 @@
   img {
     max-width: 100%;
   }
+
+  .thum-img img{
+    max-width: 100%;
+  }
 ::after, ::before {
   box-sizing: border-box;
 }
@@ -395,10 +399,10 @@ h3{
 
 }
 @media(max-width:450px) {
-  .s-img{
+  /* .s-img{
     width: 250px;
     margin-left: 20px !important;
-  }
+  } */
 }
 
 @media(min-width:320px) and (max-width: 575px) {
@@ -431,7 +435,7 @@ h3{
 }
 .s-img{
   width: 250px;
-  margin-left: 160px;
+  /* margin-left: 160px; */
 }
 .s-para {
   font-size: 12px !important;
@@ -526,4 +530,21 @@ h3{
   .s-para {
     width: 81% !important;
   }
+}
+
+
+/* Extra default  Responsive */
+
+@media (max-width:520px){
+  .s-img {
+    width: 250px;
+    /* margin-left: 131px; */
+}
+}
+
+@media(min-width: 320px) {
+  .s-img {
+    width: 250px;
+    /* margin-left: 25px; */
+}
 }
