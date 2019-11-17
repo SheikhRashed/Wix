@@ -114,7 +114,7 @@ h3{
 .bg-banner {
   position: relative;
   /* background: transparent top bottom/cover no-repeat; */
-  background: url(../images/bg.jpg) no-repeat center center/cover, linear-gradient(90deg, rgba(118,0,0,1) 0%, rgba(185,0,0,1) 50%, rgba(102,0,0,1) 100%) ;
+  background: url(../images/bg.jpg) no-repeat center center/cover, linear-gradient(90deg, rgba(118,0,0,1) 0%, rgba(102,0,0,1) 100%);
   background-attachment: fixed;
   /* background: ; */
 padding: 120px 0px;
@@ -228,8 +228,9 @@ z-index: 1;
 
 .available {
   min-height: 818px;
-  background: url(../images/screen01.jpg) no-repeat center center/cover;
+  background:  #374040 url(../images/screen01.jpg) no-repeat center center/cover;
   background-attachment: fixed;
+  z-index: 5;
 }
 
 .Available-soon p  {
