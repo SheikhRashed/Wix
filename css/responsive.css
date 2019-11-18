@@ -1,15 +1,21 @@
-/* Extra small devices (portrait phones, less than 576px) */
+/* Extra small devices (portrait phones, less than 320px) */
+@media(max-width: 320px) {
+    #loco2 {
+        margin-top: -150px;
+    }
+}
 
+/* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575px) {
     .loco-train img {
-        top: -25px;
+        top: -43px;
     }
   
 }
 
 /* Small devices (landscape phones upto 767px) */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     #img-grid {
         height: auto;
         background: #1C8E8F;
@@ -17,12 +23,16 @@
     #img-grid .s-para {
         color: #D2CE98;
     }
+
+    .loco-train img {
+        top: -64px !important;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
     .loco-train img {
-        top: -55px;
+        top: -61px;
     }
  }
 
@@ -30,7 +40,7 @@
 @media (min-width: 768px) and (max-width: 991px) { 
 
     .loco-train img {
-        top: -60px;
+        top: -82px;
     }
     #img-grid {
         height: 715px;
@@ -47,7 +57,7 @@
 /* Medium devices (tablets, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
     .loco-train img {
-        top: -80px;
+        top: -99px !important;
     }
 
     #img-grid {
@@ -63,7 +73,14 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     #img-grid .s-para {
-        max-width: 80%;
+        max-width: 75%;
         margin: auto;
       }
+ }
+
+ /* For Train large device(large desktops, 1200px and up */
+ @media(min-width: 1200px) and (max-width: 1399px) {
+    .loco-train img {
+        top: -100px;
+    }
  }
